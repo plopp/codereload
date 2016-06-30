@@ -1,6 +1,7 @@
 import os
 import time
 from subprocess import Popen, PIPE
+import sys
 
 time.sleep(120)
 print "Code release 1.3"
