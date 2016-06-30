@@ -2,7 +2,7 @@ import os
 import time
 
 time.sleep(120)
-print "Code release 1.2"
+print "Code release 1.3"
 print "Downloading new source..."
 process = Popen(["sh", "swupgrade.sh"], stdout=PIPE)
 (output, err) = process.communicate()
