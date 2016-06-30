@@ -3,8 +3,7 @@ import time
 from subprocess import Popen, PIPE
 import sys
 
-time.sleep(120)
-print "Code release 1.4"
+print "Code release 1.5"
 print "Downloading new source..."
 process = Popen(["sh", "swupgrade.sh"], stdout=PIPE)
 (output, err) = process.communicate()
